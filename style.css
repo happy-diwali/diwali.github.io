@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Griffy&display=swap');
+
+body{
+    background-image:repeating-radial-gradient(yellow,orange);
+}
+
+h1{
+    text-align: center;
+    color:firebrick;
+    font-family: 'Great Vibes', 'sans-serif';
+    font-size:50px;
+}
+
+.rightImg{
+    position: fixed;
+    width: auto;
+    height: 100%;
+    right: 1%;
+    top: 1%;
+}
+
+.leftImg{
+    position: fixed;
+    width: auto;
+    height: 100%;
+    left: 1%;
+    top: 1%;
+}
+
+#wa_logo{
+    position: relative;
+    left: 50px;
+}
+
+#timer{
+    text-align: center;
+    color:rgb(82, 63, 206);
+    font-family: 'Griffy', 'Great Vibes';
+    font-size:45px;
+}
+
+#copy{
+    position: relative;
+    left: 60px;
+}
+
+.objleft{
+    margin-left: 425px;
+}
+
+.om_swastik{
+    margin-left: 65px;
+}
+
+.slideshow{
+    width:625px;
+    height:625px;
+    background-image: url("Images/sld1.jpg");
+    background-repeat: no-repeat;
+    position:absolute;
+    margin-top: 100px;
+    left:25%;
+    animation:sldshow 20s infinite linear;
+}
+@keyframes sldshow{
+    30%{background-image: url("Images/sld2.jpg");}
+    60%{background-image: url("Images/sld3.jpg");}
+    90%{background-image: url("Images/sld4.jpg");}
+}
